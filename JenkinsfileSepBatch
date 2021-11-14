@@ -8,7 +8,7 @@ stage('checkout code from github'){
    git branch: 'development', credentialsId: '6dd234ae-f22c-41c2-bac8-27d55b745e54', url: 'https://github.com/mss-ec-apps-shahaji/maven-web-application.git'
 }
   stage('build'){
-      
+/*      
    sh "${mavenHome}/bin/mvn clean package"
 }
 
@@ -33,6 +33,6 @@ shahajirao software solution,
 8600329899
 ''', recipientProviders: [buildUser()], subject: 'Build over....', to: 'shahuingale@gmail.com'
   }
-    
+   */ 
 }
 
