@@ -11,7 +11,7 @@ stage('checkout code from github'){
       
    sh "${mavenHome}/bin/mvn clean package"
 }
-/*
+
   stage('sonarqubeReport'){
       sh "${mavenHome}/bin/mvn sonar:sonar"
   } 
@@ -35,4 +35,4 @@ shahajirao software solution,
   }
     
 }
-*/
+
