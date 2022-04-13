@@ -29,13 +29,7 @@
 
 	</properties>
 	
-	<repositories>
-	<repository>
-	<id>nexus</nexus>
-	<name>docker-repo</name>
-	<url>http://13.233.164.192:8081/repository/docker-repo/</url>	
-        </repository>		
-        </repositories>		
+		
 
 	<dependencies>
 		
